@@ -9,6 +9,7 @@ Welcome! 👋 Thank you for your interest in contributing to **Good First Issue*
 ### Prerequisites
 
 Before you begin, make sure you have:
+
 - A GitHub account
 - Git installed on your computer
 - Python 3.9 or higher
@@ -118,28 +119,34 @@ Use descriptive branch names that explain what you're working on.
 You can ask Copilot to help with specific tasks:
 
 **For documentation:**
+
 > "Add a usage example section to the README and format it nicely."
 
 **For code:**
+
 > "Write unit tests for `populate.py` using pytest."
 
 **For code review:**
+
 > "Review my code for style and best practices."
 
 #### Guidelines for Different Types of Contributions
 
 **Adding a New Project:**
+
 1. Ensure the project meets our criteria (see [README.md](README.md#adding-a-new-project))
 2. Add the repository path in lexicographic order to `data/repositories.toml`
 3. Test locally by running `make generate` (requires Python dependencies)
 
 **Code Changes:**
+
 1. Follow the existing code style
 2. Run linters: `make format`
 3. Run tests: `make test`
 4. Ensure the build works: `make build`
 
 **Documentation Changes:**
+
 1. Use clear, concise language
 2. Add examples where helpful
 3. Check for spelling and grammar
@@ -175,11 +182,13 @@ git push origin your-branch-name
 ```
 
 **Writing Good Commit Messages:**
+
 - Use the present tense ("Add feature" not "Added feature")
 - Be concise but descriptive
 - Reference issue numbers if applicable (e.g., "Fix #123: Update README")
 
 **Using Copilot for Commit Messages:**
+
 > "Generate a concise commit message for my last change."
 
 ---
@@ -213,18 +222,23 @@ Maintainers may request changes or ask questions. This is a normal part of the p
 GitHub Copilot Agent can help you throughout the contribution process:
 
 ### Generate Commit Messages
+
 > "Generate a concise commit message for my last change."
 
 ### Explain Differences
+
 > "Explain the changes between this branch and main."
 
 ### Code Review
+
 > "Review my code for style and best practices."
 
 ### Understand Code
+
 > "Explain what this function does and how it works."
 
 ### Debug Issues
+
 > "Why is this test failing? Help me debug it."
 
 ---
