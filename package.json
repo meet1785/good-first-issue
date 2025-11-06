@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "sync": "bun sync.js"
+    "sync": "bun sync.js",
+    "test:unit": "vitest run"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -16,7 +17,8 @@
     "nuxt": "^3.8.2",
     "nuxt-gtag": "^0.5.9",
     "nuxt-simple-sitemap": "^3.4.0",
-    "prettier": "^3.1.1"
+    "prettier": "^3.1.1",
+    "vitest": "^1.2.2"
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",

@@ -8,6 +8,26 @@
       </p>
     </div>
     <div class="pt-6">
+      <h3 class="section-heading">Search projects</h3>
+      <div class="flex items-center space-x-2">
+        <input
+          v-model="searchQuery"
+          type="search"
+          aria-label="Search repositories by name, owner, or language"
+          placeholder="Search repositories"
+          class="bg-ink-300 text-vanilla-100 flex flex-grow h-10 text-sm py-2 px-3 rounded-sm w-full outline-none"
+        />
+        <button
+          v-if="searchQuery"
+          type="button"
+          class="text-xs text-vanilla-200 hover:text-juniper"
+          @click="searchQuery = ''"
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+    <div class="pt-6">
       <h3 class="section-heading">Browse by language</h3>
       <div>
         <nuxt-link
@@ -63,7 +83,9 @@
 <script setup>
 import Tags from '~/data/tags.json'
 import { PlusCircleIcon } from '@heroicons/vue/24/outline'
-import {HeartIcon} from '@heroicons/vue/24/solid'
+import { HeartIcon } from '@heroicons/vue/24/solid'
+
+const searchQuery = useSearchQuery()
 </script>
 <style>
 .section-heading {
