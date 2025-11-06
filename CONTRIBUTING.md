@@ -47,7 +47,7 @@ This gives you a full development environment with GitHub Copilot built in!
 
 #### Option B: Local Development
 
-Follow the setup instructions in the [README.md](README.md#setting-up-the-project-locally):
+Follow the setup instructions in the README.md:
 
 1. Clone the project and ensure Python 3 and Node.js are installed
 2. Copy the sample data files:
@@ -220,10 +220,6 @@ Maintainers may request changes or ask questions. This is a normal part of the p
 ## 💡 Tips for Using Copilot Agent
 
 GitHub Copilot Agent can help you throughout the contribution process:
-
-### Generate Commit Messages
-
-> "Generate a concise commit message for my last change."
 
 ### Explain Differences
 
